@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Paper Generator - Test UI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 2px solid #f0f0f0;
+            border-radius: 8px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        input[type="text"],
+        input[type="file"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="text"]:focus,
+        input[type="file"]:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        textarea {
+            min-height: 150px;
+            font-family: monospace;
+            resize: vertical;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .result.success {
+            background: #d4edda;
+            border: 2px solid #c3e6cb;
+            color: #155724;
+            display: block;
+        }
+        
+        .result.error {
+            background: #f8d7da;
+            border: 2px solid #f5c6cb;
+            color: #721c24;
+            display: block;
+        }
+        
+        .syllabi-list {
+            margin-top: 20px;
+        }
+        
+        .syllabus-card {
+            background: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .syllabus-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .syllabus-card .meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        .units {
+            margin-top: 10px;
+        }
+        
+        .unit {
+            background: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+        }
+        
+        .unit-title {
+            font-weight: bold;
+            color: #764ba2;
+            margin-bottom: 5px;
+        }
+        
+        .topics {
+            margin-left: 15px;
+            color: #555;
+            font-size: 0.9em;
+        }
+        
+        .loading {
+            display: inline-block;
+            margin-left: 10px;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-card {
+            flex: 1;
+            min-width: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 Question Paper Generator</h1>
+            <p>Test Interface - Upload & View Syllabi</p>
+        </div>
+        
+        <div class="content">
+            <!-- Upload Section -->
+            <div class="section">
+                <h2>📤 Upload Syllabus</h2>
+                
+                <div class="form-group">
+                    <label>Upload Method:</label>
+                    <select id="uploadMethod" onchange="toggleUploadMethod()">
+                        <option value="file">Upload PDF/TXT File</option>
+                        <option value="text">Paste Text Content</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="courseName">Course Name:</label>
+                    <input type="text" id="courseName" placeholder="e.g., Data Structures" required>
+                </div>
+                
+                <div id="fileUploadSection" class="form-group">
+                    <label for="syllabusFile">Select Syllabus File:</label>
+                    <input type="file" id="syllabusFile" accept=".pdf,.txt">
+                </div>
+                
+                <div id="textUploadSection" class="form-group" style="display: none;">
+                    <label for="syllabusText">Paste Syllabus Content:</label>
+                    <textarea id="syllabusText" placeholder="Paste your syllabus content here..."></textarea>
+                </div>
+                
+                <button onclick="uploadSyllabus()" id="uploadBtn">Upload Syllabus</button>
+                
+                <div id="uploadResult" class="result"></div>
+            </div>
+            
+            <!-- View Syllabi Section -->
+            <div class="section">
+                <h2>📚 View All Syllabi</h2>
+                
+                <div class="stats" id="stats">
+                    <div class="stat-card">
+                        <div class="number" id="totalSyllabi">0</div>
+                        <div class="label">Total Syllabi</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="totalUnits">0</div>
+                        <div class="label">Total Units</div>
+                    </div>
+                </div>
+                
+                <button onclick="loadSyllabi()" style="margin-top: 20px;">🔄 Refresh Syllabi List</button>
+                
+                <div id="syllabiList" class="syllabi-list"></div>
+            </div>
+            
+            <!-- Generate Question Paper Section -->
+            <div class="section">
+                <h2>📝 Generate Question Paper</h2>
+                
+                <div class="form-group">
+                    <label for="selectSyllabus">Select Syllabus:</label>
+                    <select id="selectSyllabus">
+                        <option value="">-- Select a Syllabus --</option>
+                    </select>
+                </div>
+                
+                <button onclick="generateQuestionPaper()" id="generateBtn">Generate Question Paper</button>
+                
+                <div id="generateResult" class="result"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const API_BASE_URL = 'http://localhost:8000/api';
+        
+        // Load syllabi on page load
+        window.onload = function() {
+            loadSyllabi();
+        };
+        
+        function toggleUploadMethod() {
+            const method = document.getElementById('uploadMethod').value;
+            const fileSection = document.getElementById('fileUploadSection');
+            const textSection = document.getElementById('textUploadSection');
+            
+            if (method === 'file') {
+                fileSection.style.display = 'block';
+                textSection.style.display = 'none';
+            } else {
+                fileSection.style.display = 'none';
+                textSection.style.display = 'block';
+            }
+        }
+        
+        async function uploadSyllabus() {
+            const method = document.getElementById('uploadMethod').value;
+            const courseName = document.getElementById('courseName').value;
+            const uploadBtn = document.getElementById('uploadBtn');
+            const resultDiv = document.getElementById('uploadResult');
+            
+            if (!courseName) {
+                showResult(resultDiv, 'error', 'Please enter a course name');
+                return;
+            }
+            
+            uploadBtn.disabled = true;
+            resultDiv.className = 'result';
+            resultDiv.textContent = '';
+            
+            try {
+                let response;
+                
+                if (method === 'file') {
+                    const fileInput = document.getElementById('syllabusFile');
+                    const file = fileInput.files[0];
+                    
+                    if (!file) {
+                        showResult(resultDiv, 'error', 'Please select a file');
+                        uploadBtn.disabled = false;
+                        return;
+                    }
+                    
+                    const formData = new FormData();
+                    formData.append('file', file);
+                    formData.append('course_name', courseName);
+                    
+                    response = await fetch(`${API_BASE_URL}/syllabus/upload/file`, {
+                        method: 'POST',
+                        body: formData
+                    });
+                } else {
+                    const text = document.getElementById('syllabusText').value;
+                    
+                    if (!text) {
+                        showResult(resultDiv, 'error', 'Please enter syllabus content');
+                        uploadBtn.disabled = false;
+                        return;
+                    }
+                    
+                    response = await fetch(`${API_BASE_URL}/syllabus/upload/text`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            course_name: courseName,
+                            content: text
+                        })
+                    });
+                }
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    showResult(resultDiv, 'success', 
+                        `✅ Syllabus uploaded successfully! ID: ${data.id}, Units found: ${data.units.length}`);
+                    
+                    // Clear form
+                    document.getElementById('courseName').value = '';
+                    document.getElementById('syllabusText').value = '';
+                    document.getElementById('syllabusFile').value = '';
+                    
+                    // Refresh list
+                    setTimeout(() => loadSyllabi(), 1000);
+                } else {
+                    showResult(resultDiv, 'error', `❌ Error: ${data.detail || 'Upload failed'}`);
+                }
+            } catch (error) {
+                showResult(resultDiv, 'error', `❌ Network error: ${error.message}`);
+            } finally {
+                uploadBtn.disabled = false;
+            }
+        }
+        
+        async function loadSyllabi() {
+            const listDiv = document.getElementById('syllabiList');
+            const selectDropdown = document.getElementById('selectSyllabus');
+            
+            listDiv.innerHTML = '<p class="loading">Loading syllabi...</p>';
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/syllabus/`);
+                const syllabi = await response.json();
+                
+                if (response.ok) {
+                    // Update stats
+                    document.getElementById('totalSyllabi').textContent = syllabi.length;
+                    const totalUnits = syllabi.reduce((sum, syl) => sum + (syl.units?.length || 0), 0);
+                    document.getElementById('totalUnits').textContent = totalUnits;
+                    
+                    // Update syllabi list
+                    if (syllabi.length === 0) {
+                        listDiv.innerHTML = '<p style="color: #666; padding: 20px; text-align: center;">No syllabi uploaded yet. Upload one above!</p>';
+                    } else {
+                        listDiv.innerHTML = syllabi.map(syl => `
+                            <div class="syllabus-card">
+                                <h3>${syl.course_name}</h3>
+                                <div class="meta">
+                                    <strong>ID:</strong> ${syl.id} | 
+                                    <strong>Created:</strong> ${new Date(syl.created_at).toLocaleString()} | 
+                                    <strong>Units:</strong> ${syl.units.length}
+                                </div>
+                                <div class="units">
+                                    ${syl.units.map(unit => `
+                                        <div class="unit">
+                                            <div class="unit-title">${unit.title}</div>
+                                            <div class="topics">
+                                                ${unit.topics.length} topics: ${unit.topics.slice(0, 3).join(', ')}${unit.topics.length > 3 ? '...' : ''}
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `).join('');
+                    }
+                    
+                    // Update dropdown
+                    selectDropdown.innerHTML = '<option value="">-- Select a Syllabus --</option>' +
+                        syllabi.map(syl => 
+                            `<option value="${syl.id}">${syl.course_name} (${syl.id})</option>`
+                        ).join('');
+                } else {
+                    listDiv.innerHTML = `<p class="error">Error loading syllabi: ${syllabi.detail || 'Unknown error'}</p>`;
+                }
+            } catch (error) {
+                listDiv.innerHTML = `<p class="error">Network error: ${error.message}</p>`;
+            }
+        }
+        
+        async function generateQuestionPaper() {
+            const syllabusId = document.getElementById('selectSyllabus').value;
+            const generateBtn = document.getElementById('generateBtn');
+            const resultDiv = document.getElementById('generateResult');
+            
+            if (!syllabusId) {
+                showResult(resultDiv, 'error', 'Please select a syllabus');
+                return;
+            }
+            
+            generateBtn.disabled = true;
+            resultDiv.className = 'result';
+            resultDiv.textContent = 'Generating question paper...';
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/question-paper/generate`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        syllabus_id: syllabusId,
+                        generation_rules: {
+                            question_types: [
+                                {
+                                    marks: 1,
+                                    count: 10,
+                                    type: "multiple_choice",
+                                    difficulty: "easy"
+                                },
+                                {
+                                    marks: 5,
+                                    count: 3,
+                                    type: "descriptive",
+                                    difficulty: "medium"
+                                }
+                            ],
+                            difficulty_distribution: {
+                                easy: 40,
+                                medium: 40,
+                                hard: 20
+                            },
+                            unit_selection: "all",
+                            include_answer_key: true,
+                            randomize_order: true
+                        }
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    showResult(resultDiv, 'success', 
+                        `✅ Question paper generated successfully!<br>
+                        ID: ${data.id}<br>
+                        Total Questions: ${data.total_questions}<br>
+                        Total Marks: ${data.total_marks}`);
+                } else {
+                    showResult(resultDiv, 'error', `❌ Error: ${data.detail || 'Generation failed'}`);
+                }
+            } catch (error) {
+                showResult(resultDiv, 'error', `❌ Network error: ${error.message}`);
+            } finally {
+                generateBtn.disabled = false;
+            }
+        }
+        
+        function showResult(element, type, message) {
+            element.className = `result ${type}`;
+            element.innerHTML = message;
+        }
+    </script>
+</body>
+</html>

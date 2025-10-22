@@ -1,0 +1,37 @@
+Unit 1: LISTS
+- Abstract Data Types (ADTs)
+- Array-based implementation
+- Linked list implementation
+- Singly linked lists
+- Circularly linked lists
+- Doubly-linked lists
+- Applications of lists
+
+Unit 2: STACKS AND QUEUES
+- Balancing Symbols
+- Evaluating arithmetic expressions
+- Infix to Postfix conversion
+- Applications of Queues.
+
+Unit 3: TREES
+- Expression trees
+- Binary Search Tree ADT
+- Priority Queue (Heaps)
+
+Unit 4: MULTIWAY SEARCH TREES AND GRAPHS
+- Graph Definition
+- Representation of Graphs
+- Breadth-first traversal
+- Depth-first traversal –
+- Topological Sort
+- Dijkstra's algorithm
+- Minimum Spanning Tree
+- Prim's algorithm
+- Kruskal's algorithm
+
+Unit 5: SEARCHING, SORTING AND HASHING TECHNIQUES
+- Binary Search. Sorting
+- Shell sort –. Merge Sort
+- Separate Chaining
+- Extendible Hashing.
+
