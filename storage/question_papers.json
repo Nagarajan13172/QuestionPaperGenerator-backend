@@ -1188,5 +1188,1058 @@
       "unit_3": 5,
       "unit_5": 3
     }
+  },
+  "qp_071361d5": {
+    "id": "qp_071361d5",
+    "syllabus_id": "syl_41904c8b",
+    "course_name": "Computer Vision",
+    "generated_at": "2025-10-22 06:43:27.933695",
+    "total_marks": 67,
+    "total_questions": 26,
+    "questions": [
+      {
+        "id": "q_fccdf008",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Which of the following is related to SEARCHING, SORTING AND HASHING TECHNIQUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Linear Search",
+          "B) Binary Search. Sorting",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_7dd4c86e",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Which of the following is related to MULTIWAY SEARCH TREES AND GRAPHS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Graph Definition",
+          "B) Representation of Graphs",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_b6fb4932",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Which of the following is related to STACKS AND QUEUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Applications",
+          "B) Balancing Symbols",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_6bf99d63",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Which of the following is related to STACKS AND QUEUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Applications",
+          "B) Balancing Symbols",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_b291d913",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Which of the following is related to TREES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Tree Traversals",
+          "B) Binary Tree ADT",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_37d7fbae",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Which of the following is related to STACKS AND QUEUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Applications",
+          "B) Balancing Symbols",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_685859a9",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Which of the following is related to LISTS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Abstract Data Types (ADTs)",
+          "B) Array-based implementation",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_70907540",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Which of the following is related to TREES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Tree Traversals",
+          "B) Binary Tree ADT",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_60c9129a",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_315f3e90",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Explain the key concepts covered in MULTIWAY SEARCH TREES AND GRAPHS. Topics include: Graph Definition, Representation of Graphs, Types of Graph",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_96d9d8df",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Explain the key concepts covered in SEARCHING, SORTING AND HASHING TECHNIQUES. Topics include: Linear Search, Binary Search. Sorting, Bubble sort",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_01680866",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_54b53c5f",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Which of the following is related to SEARCHING, SORTING AND HASHING TECHNIQUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Linear Search",
+          "B) Binary Search. Sorting",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_a943dade",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Explain the key concepts covered in TREES. Topics include: Tree Traversals, Binary Tree ADT, Expression trees",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_93c86f11",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_8d7fd2d8",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Which of the following is related to SEARCHING, SORTING AND HASHING TECHNIQUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Linear Search",
+          "B) Binary Search. Sorting",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_73ba27e1",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_f5a9d536",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Which of the following is related to LISTS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Abstract Data Types (ADTs)",
+          "B) Array-based implementation",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_ea9727a8",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_414023f7",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Which of the following is related to MULTIWAY SEARCH TREES AND GRAPHS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Graph Definition",
+          "B) Representation of Graphs",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_09fd59e9",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Which of the following is related to LISTS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Abstract Data Types (ADTs)",
+          "B) Array-based implementation",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_fb100882",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_a1117c9c",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Which of the following is related to TREES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Tree Traversals",
+          "B) Binary Tree ADT",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_33e39e58",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Which of the following is related to MULTIWAY SEARCH TREES AND GRAPHS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Graph Definition",
+          "B) Representation of Graphs",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_58aeec12",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Which of the following is related to LISTS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Abstract Data Types (ADTs)",
+          "B) Array-based implementation",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_14157adb",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Explain the key concepts covered in TREES. Topics include: Tree Traversals, Binary Tree ADT, Expression trees",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
+        "answer_explanation": "This is a fallback question due to API error."
+      }
+    ],
+    "generation_rules": {
+      "question_types": [
+        {
+          "marks": 1,
+          "count": 16,
+          "type": "multiple_choice",
+          "difficulty": null
+        },
+        {
+          "marks": 2,
+          "count": 3,
+          "type": "short_answer",
+          "difficulty": null
+        },
+        {
+          "marks": 5,
+          "count": 5,
+          "type": "descriptive",
+          "difficulty": null
+        },
+        {
+          "marks": 10,
+          "count": 2,
+          "type": "essay",
+          "difficulty": null
+        }
+      ],
+      "difficulty_distribution": {
+        "easy": 33,
+        "medium": 34,
+        "hard": 33
+      },
+      "unit_selection": "all",
+      "include_answer_key": true,
+      "randomize_order": true,
+      "randomize_options": true
+    },
+    "units_coverage": {
+      "unit_5": 4,
+      "unit_4": 4,
+      "unit_2": 6,
+      "unit_3": 5,
+      "unit_1": 7
+    }
+  },
+  "qp_e25cd900": {
+    "id": "qp_e25cd900",
+    "syllabus_id": "syl_f8aa0b80",
+    "course_name": "Maths",
+    "generated_at": "2025-10-22 06:46:09.235542",
+    "total_marks": 86,
+    "total_questions": 16,
+    "questions": [
+      {
+        "id": "q_b4772eb5",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Which of the following is related to LISTS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Abstract Data Types (ADTs)",
+          "B) Array-based implementation",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_09ccdd44",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_d275b4e1",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Explain the key concepts covered in SEARCHING, SORTING AND HASHING TECHNIQUES. Topics include: Linear Search, Binary Search. Sorting, Bubble sort",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_ba6f694c",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Explain the key concepts covered in MULTIWAY SEARCH TREES AND GRAPHS. Topics include: Graph Definition, Representation of Graphs, Types of Graph",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_de80082b",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Explain the key concepts covered in TREES. Topics include: Tree Traversals, Binary Tree ADT, Expression trees",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_b5010540",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Explain the key concepts covered in MULTIWAY SEARCH TREES AND GRAPHS. Topics include: Graph Definition, Representation of Graphs, Types of Graph",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_4af3142a",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Explain the key concepts covered in MULTIWAY SEARCH TREES AND GRAPHS. Topics include: Graph Definition, Representation of Graphs, Types of Graph",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_8e713b90",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_60af0996",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Explain the key concepts covered in TREES. Topics include: Tree Traversals, Binary Tree ADT, Expression trees",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_e38ea6f3",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Explain the key concepts covered in TREES. Topics include: Tree Traversals, Binary Tree ADT, Expression trees",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_75157653",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Explain the key concepts covered in SEARCHING, SORTING AND HASHING TECHNIQUES. Topics include: Linear Search, Binary Search. Sorting, Bubble sort",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_12198f1f",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_c4b30fbc",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Explain the key concepts covered in SEARCHING, SORTING AND HASHING TECHNIQUES. Topics include: Linear Search, Binary Search. Sorting, Bubble sort",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_7959f540",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_d01941e8",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_f95592e2",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      }
+    ],
+    "generation_rules": {
+      "question_types": [
+        {
+          "marks": 1,
+          "count": 1,
+          "type": "multiple_choice",
+          "difficulty": null
+        },
+        {
+          "marks": 2,
+          "count": 5,
+          "type": "short_answer",
+          "difficulty": null
+        },
+        {
+          "marks": 5,
+          "count": 5,
+          "type": "descriptive",
+          "difficulty": null
+        },
+        {
+          "marks": 10,
+          "count": 5,
+          "type": "essay",
+          "difficulty": null
+        }
+      ],
+      "difficulty_distribution": {
+        "easy": 33,
+        "medium": 34,
+        "hard": 33
+      },
+      "unit_selection": "all",
+      "include_answer_key": true,
+      "randomize_order": true,
+      "randomize_options": true
+    },
+    "units_coverage": {
+      "unit_1": 4,
+      "unit_2": 3,
+      "unit_5": 3,
+      "unit_4": 3,
+      "unit_3": 3
+    }
+  },
+  "qp_f545549b": {
+    "id": "qp_f545549b",
+    "syllabus_id": "syl_2df95455",
+    "course_name": "testtttt",
+    "generated_at": "2025-10-23 06:46:52.672843",
+    "total_marks": 60,
+    "total_questions": 21,
+    "questions": [
+      {
+        "id": "q_33208dba",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Which of the following is related to TREES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Tree Traversals",
+          "B) Binary Tree ADT",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_fe4d9673",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Which of the following is related to LISTS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Abstract Data Types (ADTs)",
+          "B) Array-based implementation",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_d25ba31e",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Which of the following is related to MULTIWAY SEARCH TREES AND GRAPHS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Graph Definition",
+          "B) Representation of Graphs",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_78ae7ef9",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Which of the following is related to STACKS AND QUEUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Applications",
+          "B) Balancing Symbols",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_cbb11c1d",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Explain the key concepts covered in MULTIWAY SEARCH TREES AND GRAPHS. Topics include: Graph Definition, Representation of Graphs, Types of Graph",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_54e1b4f6",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Which of the following is related to SEARCHING, SORTING AND HASHING TECHNIQUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Linear Search",
+          "B) Binary Search. Sorting",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_744c622d",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Explain the key concepts covered in SEARCHING, SORTING AND HASHING TECHNIQUES. Topics include: Linear Search, Binary Search. Sorting, Bubble sort",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_cc74a625",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Explain the key concepts covered in TREES. Topics include: Tree Traversals, Binary Tree ADT, Expression trees",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_78863063",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_50724854",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_d8d7d09a",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_f50c5115",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_70b21374",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Explain the key concepts covered in LISTS. Topics include: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "marks": 10,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_aab990e1",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Which of the following is related to STACKS AND QUEUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Applications",
+          "B) Balancing Symbols",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_8fe8a3e4",
+        "unit_id": "unit_1",
+        "unit_name": "LISTS",
+        "question_text": "Which of the following is related to LISTS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Abstract Data Types (ADTs)",
+          "B) Array-based implementation",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_8f4ae767",
+        "unit_id": "unit_5",
+        "unit_name": "SEARCHING, SORTING AND HASHING TECHNIQUES",
+        "question_text": "Which of the following is related to SEARCHING, SORTING AND HASHING TECHNIQUES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Linear Search",
+          "B) Binary Search. Sorting",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_b20addaf",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Which of the following is related to MULTIWAY SEARCH TREES AND GRAPHS?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Graph Definition",
+          "B) Representation of Graphs",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_50a1c66b",
+        "unit_id": "unit_2",
+        "unit_name": "STACKS AND QUEUES",
+        "question_text": "Explain the key concepts covered in STACKS AND QUEUES. Topics include: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_9ae9abe2",
+        "unit_id": "unit_4",
+        "unit_name": "MULTIWAY SEARCH TREES AND GRAPHS",
+        "question_text": "Explain the key concepts covered in MULTIWAY SEARCH TREES AND GRAPHS. Topics include: Graph Definition, Representation of Graphs, Types of Graph",
+        "marks": 2,
+        "type": "short_answer",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_657e8a91",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Explain the key concepts covered in TREES. Topics include: Tree Traversals, Binary Tree ADT, Expression trees",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
+        "answer_explanation": "This is a fallback question due to API error."
+      },
+      {
+        "id": "q_1e25cf82",
+        "unit_id": "unit_3",
+        "unit_name": "TREES",
+        "question_text": "Which of the following is related to TREES?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Tree Traversals",
+          "B) Binary Tree ADT",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error."
+      }
+    ],
+    "generation_rules": {
+      "question_types": [
+        {
+          "marks": 1,
+          "count": 10,
+          "type": "multiple_choice",
+          "difficulty": null
+        },
+        {
+          "marks": 2,
+          "count": 5,
+          "type": "short_answer",
+          "difficulty": null
+        },
+        {
+          "marks": 5,
+          "count": 4,
+          "type": "descriptive",
+          "difficulty": null
+        },
+        {
+          "marks": 10,
+          "count": 2,
+          "type": "essay",
+          "difficulty": null
+        }
+      ],
+      "difficulty_distribution": {
+        "easy": 33,
+        "medium": 34,
+        "hard": 33
+      },
+      "unit_selection": "all",
+      "include_answer_key": true,
+      "randomize_order": true,
+      "randomize_options": true
+    },
+    "units_coverage": {
+      "unit_3": 4,
+      "unit_1": 5,
+      "unit_4": 4,
+      "unit_2": 5,
+      "unit_5": 3
+    }
   }
 }

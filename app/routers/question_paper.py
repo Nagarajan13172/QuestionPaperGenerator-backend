@@ -1,7 +1,8 @@
 """
 Question Paper router - handles question paper generation
 """
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, HTTPException, status, Query
+from fastapi.responses import StreamingResponse
 import logging
 import uuid
 from datetime import datetime
@@ -13,6 +14,7 @@ from app.models import (
     Syllabus
 )
 from app.services.question_generator import QuestionGenerator
+from app.services.pdf_generator import PDFGenerator
 from app.utils.storage import get_storage
 from app.config import settings
 
@@ -141,3 +143,57 @@ async def delete_question_paper(paper_id: str):
     storage.delete_item(QUESTION_PAPERS_STORE, paper_id)
     logger.info(f"✓ Deleted question paper: {paper_id}")
     return None
+
+
+@router.get("/{paper_id}/pdf")
+async def download_question_paper_pdf(
+    paper_id: str,
+    include_answers: bool = Query(None, description="Include answers in PDF (overrides generation rules)")
+):
+    """
+    Download question paper as PDF
+    
+    Args:
+        paper_id: ID of the question paper
+        include_answers: Optional override to include/exclude answers
+        
+    Returns:
+        PDF file as streaming response
+    """
+    try:
+        # Get question paper
+        paper_dict = storage.get_item(QUESTION_PAPERS_STORE, paper_id)
+        if not paper_dict:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Question paper with ID {paper_id} not found"
+            )
+        
+        question_paper = QuestionPaper(**paper_dict)
+        
+        # Generate PDF
+        pdf_generator = PDFGenerator()
+        pdf_buffer = pdf_generator.generate_pdf(question_paper, include_answers)
+        
+        # Create filename
+        safe_course_name = "".join(c for c in question_paper.course_name if c.isalnum() or c in (' ', '-', '_')).strip()
+        safe_course_name = safe_course_name.replace(' ', '_')
+        filename = f"{safe_course_name}_{paper_id}.pdf"
+        
+        # Return PDF as streaming response
+        return StreamingResponse(
+            pdf_buffer,
+            media_type="application/pdf",
+            headers={
+                "Content-Disposition": f"attachment; filename={filename}"
+            }
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error generating PDF for question paper {paper_id}: {e}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to generate PDF: {str(e)}"
+        )

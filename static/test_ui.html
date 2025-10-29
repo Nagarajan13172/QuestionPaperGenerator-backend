@@ -299,6 +299,33 @@
                 
                 <div id="generateResult" class="result"></div>
             </div>
+            
+            <!-- Download Question Paper as PDF Section -->
+            <div class="section">
+                <h2>📥 Download Question Paper as PDF</h2>
+                
+                <button onclick="loadQuestionPapers()" style="margin-bottom: 15px;">🔄 Load Question Papers</button>
+                
+                <div class="form-group">
+                    <label for="selectQuestionPaper">Select Question Paper:</label>
+                    <select id="selectQuestionPaper">
+                        <option value="">-- Select a Question Paper --</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="includeAnswers">Include Answers:</label>
+                    <select id="includeAnswers">
+                        <option value="">Default (from generation rules)</option>
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+                
+                <button onclick="downloadPDF()" id="downloadBtn">📄 Download PDF</button>
+                
+                <div id="downloadResult" class="result"></div>
+            </div>
         </div>
     </div>
     
@@ -516,6 +543,9 @@
                         ID: ${data.id}<br>
                         Total Questions: ${data.total_questions}<br>
                         Total Marks: ${data.total_marks}`);
+                    
+                    // Refresh question papers list
+                    setTimeout(() => loadQuestionPapers(), 1000);
                 } else {
                     showResult(resultDiv, 'error', `❌ Error: ${data.detail || 'Generation failed'}`);
                 }
@@ -523,6 +553,85 @@
                 showResult(resultDiv, 'error', `❌ Network error: ${error.message}`);
             } finally {
                 generateBtn.disabled = false;
+            }
+        }
+        
+        async function loadQuestionPapers() {
+            const selectDropdown = document.getElementById('selectQuestionPaper');
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/question-paper/`);
+                const papers = await response.json();
+                
+                if (response.ok) {
+                    selectDropdown.innerHTML = '<option value="">-- Select a Question Paper --</option>' +
+                        papers.map(paper => 
+                            `<option value="${paper.id}">${paper.course_name} - ${paper.id} (${paper.total_questions} questions, ${paper.total_marks} marks)</option>`
+                        ).join('');
+                } else {
+                    console.error('Error loading question papers:', papers.detail);
+                }
+            } catch (error) {
+                console.error('Network error:', error.message);
+            }
+        }
+        
+        async function downloadPDF() {
+            const paperId = document.getElementById('selectQuestionPaper').value;
+            const includeAnswers = document.getElementById('includeAnswers').value;
+            const downloadBtn = document.getElementById('downloadBtn');
+            const resultDiv = document.getElementById('downloadResult');
+            
+            if (!paperId) {
+                showResult(resultDiv, 'error', 'Please select a question paper');
+                return;
+            }
+            
+            downloadBtn.disabled = true;
+            resultDiv.className = 'result';
+            resultDiv.textContent = 'Generating PDF...';
+            
+            try {
+                // Build URL with optional include_answers parameter
+                let url = `${API_BASE_URL}/question-paper/${paperId}/pdf`;
+                if (includeAnswers !== '') {
+                    url += `?include_answers=${includeAnswers}`;
+                }
+                
+                const response = await fetch(url);
+                
+                if (response.ok) {
+                    // Get filename from Content-Disposition header or use default
+                    const contentDisposition = response.headers.get('Content-Disposition');
+                    let filename = `question_paper_${paperId}.pdf`;
+                    
+                    if (contentDisposition) {
+                        const filenameMatch = contentDisposition.match(/filename=(.+)/);
+                        if (filenameMatch) {
+                            filename = filenameMatch[1];
+                        }
+                    }
+                    
+                    // Create blob and download
+                    const blob = await response.blob();
+                    const downloadUrl = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = downloadUrl;
+                    a.download = filename;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(downloadUrl);
+                    document.body.removeChild(a);
+                    
+                    showResult(resultDiv, 'success', `✅ PDF downloaded successfully: ${filename}`);
+                } else {
+                    const data = await response.json();
+                    showResult(resultDiv, 'error', `❌ Error: ${data.detail || 'Download failed'}`);
+                }
+            } catch (error) {
+                showResult(resultDiv, 'error', `❌ Network error: ${error.message}`);
+            } finally {
+                downloadBtn.disabled = false;
             }
         }
         
