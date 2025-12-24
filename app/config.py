@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     PORT: int = 8000
     
     # CORS
-    CORS_ORIGINS: list = ["http://localhost:3000", "http://localhost:5173"]
+    CORS_ORIGINS: list = ["*", "question-paper-generator-backend.vercel.app"]
     
     # API Keys
     GEMINI_API_KEY: str
