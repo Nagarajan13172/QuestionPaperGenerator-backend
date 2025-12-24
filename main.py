@@ -46,12 +46,9 @@ async def startup_event():
     logger.info(f"Starting {settings.APP_NAME} v{settings.APP_VERSION}")
     logger.info(f"Debug mode: {settings.DEBUG}")
     
-    # Verify directories exist
-    os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
-    os.makedirs(settings.GENERATED_DIR, exist_ok=True)
-    os.makedirs("static", exist_ok=True)
-    os.makedirs("storage", exist_ok=True)
-    logger.info("Upload, generated, static, and storage directories verified")
+    # Note: Vercel has read-only file system, so we skip directory creation
+    # All file operations are done in-memory
+    logger.info("Running on serverless platform - using in-memory storage")
     
     # Initialize storage
     storage = get_storage()

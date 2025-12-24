@@ -90,18 +90,13 @@ async def upload_syllabus_file(
                 detail=f"File too large. Max size: {settings.MAX_UPLOAD_SIZE / (1024*1024)}MB"
             )
         
-        # Save file temporarily
-        file_id = uuid.uuid4().hex[:8]
-        file_path = os.path.join(settings.UPLOAD_DIR, f"{file_id}{file_ext}")
-        
-        with open(file_path, "wb") as f:
-            f.write(content)
-        
-        # Parse based on file type
+        # Parse based on file type (no file system writes)
         parser = SyllabusParser()
+        file_id = uuid.uuid4().hex[:8]
         
         if file_ext == ".pdf":
-            text_content = parser.extract_text_from_pdf(file_path)
+            # Parse PDF from bytes directly
+            text_content = parser.extract_text_from_pdf_bytes(content)
         else:  # .txt
             text_content = content.decode('utf-8')
         

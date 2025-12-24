@@ -191,6 +191,39 @@ class SyllabusParser:
             logger.error(f"Error extracting text from PDF: {e}")
             raise
     
+    def extract_text_from_pdf_bytes(self, pdf_bytes: bytes) -> str:
+        """
+        Extract text from PDF bytes (no file system needed)
+        
+        Args:
+            pdf_bytes: PDF file content as bytes
+            
+        Returns:
+            Extracted text content
+        """
+        try:
+            text = ""
+            # Open PDF from memory
+            with fitz.open(stream=pdf_bytes, filetype="pdf") as doc:
+                for page in doc:
+                    page_text = page.get_text()
+                    # Clean up the text
+                    page_text = page_text.replace('\x00', '')  # Remove null bytes
+                    text += page_text + "\n"
+            
+            # Additional cleaning
+            text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
+            text = text.replace(' - ', ' – ')  # Normalize dashes
+            
+            logger.info(f"Extracted {len(text)} characters from PDF bytes")
+            logger.debug(f"First 500 chars: {text[:500]}")
+            
+            return text
+            
+        except Exception as e:
+            logger.error(f"Error extracting text from PDF: {e}")
+            raise
+    
     def parse_text(self, content: str) -> List[Unit]:
         """
         Parse syllabus text and extract units with topics
