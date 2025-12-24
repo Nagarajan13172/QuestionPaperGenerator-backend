@@ -1,5 +1,5 @@
 """
-Persistent storage utility using JSON files
+Persistent storage utility using JSON files with in-memory fallback for serverless
 """
 import json
 import os
@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 
 class JSONStorage:
-    """Simple JSON-based persistent storage"""
+    """JSON-based storage with in-memory fallback for read-only file systems"""
     
     def __init__(self, storage_dir: str = "storage"):
         """
@@ -22,8 +22,34 @@ class JSONStorage:
             storage_dir: Directory to store JSON files
         """
         self.storage_dir = Path(storage_dir)
-        self.storage_dir.mkdir(parents=True, exist_ok=True)
-        logger.info(f"Initialized JSON storage at: {self.storage_dir.absolute()}")
+        self.memory_cache: Dict[str, Dict[str, Any]] = {}
+        self.is_readonly = False
+        
+        # Try to create directory, if fails, use memory-only mode
+        try:
+            self.storage_dir.mkdir(parents=True, exist_ok=True)
+            # Test if we can write
+            test_file = self.storage_dir / ".write_test"
+            test_file.write_text("test")
+            test_file.unlink()
+            logger.info(f"Initialized JSON storage at: {self.storage_dir.absolute()}")
+        except (OSError, PermissionError) as e:
+            self.is_readonly = True
+            logger.warning(f"File system is read-only, using memory-only storage: {e}")
+            # Try to load existing data if available
+            self._load_existing_data()
+    
+    def _load_existing_data(self):
+        """Load existing data files into memory if available"""
+        try:
+            if self.storage_dir.exists():
+                for json_file in self.storage_dir.glob("*.json"):
+                    store_name = json_file.stem
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        self.memory_cache[store_name] = json.load(f)
+                    logger.info(f"Loaded {len(self.memory_cache[store_name])} items from '{store_name}' into memory")
+        except Exception as e:
+            logger.warning(f"Could not load existing data: {e}")
     
     def _get_file_path(self, store_name: str) -> Path:
         """Get file path for a store"""
@@ -31,7 +57,7 @@ class JSONStorage:
     
     def load_store(self, store_name: str) -> Dict[str, Any]:
         """
-        Load data from JSON file
+        Load data from JSON file or memory cache
         
         Args:
             store_name: Name of the store (e.g., 'syllabi', 'question_papers')
@@ -39,6 +65,10 @@ class JSONStorage:
         Returns:
             Dictionary of stored data
         """
+        # If in memory mode, return from cache
+        if self.is_readonly:
+            return self.memory_cache.get(store_name, {})
+        
         file_path = self._get_file_path(store_name)
         
         if not file_path.exists():
@@ -52,10 +82,6 @@ class JSONStorage:
             return data
         except json.JSONDecodeError as e:
             logger.error(f"Error decoding JSON from '{store_name}': {e}")
-            # Backup corrupted file
-            backup_path = file_path.with_suffix(f'.backup_{int(datetime.now().timestamp())}.json')
-            file_path.rename(backup_path)
-            logger.warning(f"Corrupted file backed up to: {backup_path}")
             return {}
         except Exception as e:
             logger.error(f"Error loading '{store_name}': {e}", exc_info=True)
@@ -63,7 +89,7 @@ class JSONStorage:
     
     def save_store(self, store_name: str, data: Dict[str, Any]) -> bool:
         """
-        Save data to JSON file
+        Save data to JSON file or memory cache
         
         Args:
             store_name: Name of the store
@@ -72,6 +98,12 @@ class JSONStorage:
         Returns:
             True if successful, False otherwise
         """
+        # If in memory mode, save to cache
+        if self.is_readonly:
+            self.memory_cache[store_name] = data
+            logger.debug(f"Saved {len(data)} items to '{store_name}' memory cache")
+            return True
+        
         file_path = self._get_file_path(store_name)
         
         try:
@@ -86,6 +118,9 @@ class JSONStorage:
             return True
         except Exception as e:
             logger.error(f"Error saving '{store_name}': {e}", exc_info=True)
+            # Fallback to memory
+            self.memory_cache[store_name] = data
+            logger.warning(f"Falling back to memory storage for '{store_name}'")
             return False
     
     def get_item(self, store_name: str, item_id: str) -> Optional[Dict[str, Any]]:
