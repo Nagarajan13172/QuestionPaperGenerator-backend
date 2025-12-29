@@ -22,7 +22,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_eae73345",
@@ -39,7 +41,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_4b3a64d7",
@@ -51,7 +55,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_877b99da",
@@ -68,7 +74,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_6b93c732",
@@ -85,7 +93,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_f5568a98",
@@ -97,7 +107,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_b49345ba",
@@ -109,7 +121,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_587760fe",
@@ -121,7 +135,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_17809fda",
@@ -133,7 +149,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_8da5eecf",
@@ -145,7 +163,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_b046dc71",
@@ -157,7 +177,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_d8863e3b",
@@ -169,7 +191,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_5d13db60",
@@ -186,7 +210,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_81e9ad4a",
@@ -203,7 +229,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_49d5d865",
@@ -220,7 +248,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_82fcfdc4",
@@ -232,7 +262,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_11e215e8",
@@ -244,7 +276,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_f566539e",
@@ -261,7 +295,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_d0bcb51c",
@@ -273,7 +309,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_31bf646c",
@@ -290,7 +328,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_d34d7d50",
@@ -307,7 +347,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       }
     ],
     "generation_rules": {
@@ -378,7 +420,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_dc28a5db",
@@ -390,7 +434,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_6f2456b6",
@@ -402,7 +448,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_2ffa56f1",
@@ -414,7 +462,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_62f41298",
@@ -431,7 +481,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_a159696e",
@@ -448,7 +500,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_19cacf2a",
@@ -460,7 +514,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_4dc16246",
@@ -477,7 +533,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_635ebe5e",
@@ -494,7 +552,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_e840ac16",
@@ -511,7 +571,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_5ee32b55",
@@ -528,7 +590,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_99e5c2e5",
@@ -540,7 +604,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_b78cb83b",
@@ -557,7 +623,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_e458f4f0",
@@ -569,7 +637,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_47cfe7e5",
@@ -586,7 +656,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_b544c08f",
@@ -603,7 +675,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_86aa7399",
@@ -615,7 +689,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_96bfd915",
@@ -632,7 +708,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_595bd1c8",
@@ -649,7 +727,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_dba24144",
@@ -661,7 +741,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_699ec90a",
@@ -678,7 +760,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_e42d7c37",
@@ -695,7 +779,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_ad49b922",
@@ -712,7 +798,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_d3e42980",
@@ -724,7 +812,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       }
     ],
     "generation_rules": {
@@ -790,7 +880,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_ae70eadd",
@@ -807,7 +899,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_a077d901",
@@ -824,7 +918,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_8a91bd2d",
@@ -836,7 +932,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_c3527eb0",
@@ -848,7 +946,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_a9836743",
@@ -865,7 +965,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_dc3d6fe1",
@@ -882,7 +984,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_0eb1be6d",
@@ -894,7 +998,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_38a05397",
@@ -911,7 +1017,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_7d7929b2",
@@ -923,7 +1031,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_11d016ac",
@@ -940,7 +1050,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_7e1064b3",
@@ -957,7 +1069,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_5b5c41fb",
@@ -974,7 +1088,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_7d075808",
@@ -991,7 +1107,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_c9d9bbb4",
@@ -1008,7 +1126,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_8c135ab7",
@@ -1020,7 +1140,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_ef83e250",
@@ -1032,7 +1154,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_cd9a8cde",
@@ -1049,7 +1173,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_d47495fe",
@@ -1066,7 +1192,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_23c27b83",
@@ -1078,7 +1206,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_73ba3a43",
@@ -1095,7 +1225,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_77601f53",
@@ -1112,7 +1244,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_8d92ab44",
@@ -1124,7 +1258,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_faccc06e",
@@ -1141,7 +1277,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       }
     ],
     "generation_rules": {
@@ -1212,7 +1350,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_7dd4c86e",
@@ -1229,7 +1369,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_b6fb4932",
@@ -1246,7 +1388,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_6bf99d63",
@@ -1263,7 +1407,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_b291d913",
@@ -1280,7 +1426,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_37d7fbae",
@@ -1297,7 +1445,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_685859a9",
@@ -1314,7 +1464,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_70907540",
@@ -1331,7 +1483,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_60c9129a",
@@ -1343,7 +1497,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_315f3e90",
@@ -1355,7 +1511,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_96d9d8df",
@@ -1367,7 +1525,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_01680866",
@@ -1379,7 +1539,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_54b53c5f",
@@ -1396,7 +1558,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_a943dade",
@@ -1408,7 +1572,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_93c86f11",
@@ -1420,7 +1586,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_8d7fd2d8",
@@ -1437,7 +1605,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_73ba27e1",
@@ -1449,7 +1619,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_f5a9d536",
@@ -1466,7 +1638,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_ea9727a8",
@@ -1478,7 +1652,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_414023f7",
@@ -1495,7 +1671,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_09fd59e9",
@@ -1512,7 +1690,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_fb100882",
@@ -1524,7 +1704,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_a1117c9c",
@@ -1541,7 +1723,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_33e39e58",
@@ -1558,7 +1742,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_58aeec12",
@@ -1575,7 +1761,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_14157adb",
@@ -1587,7 +1775,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       }
     ],
     "generation_rules": {
@@ -1658,7 +1848,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_09ccdd44",
@@ -1670,7 +1862,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_d275b4e1",
@@ -1682,7 +1876,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_ba6f694c",
@@ -1694,7 +1890,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_de80082b",
@@ -1706,7 +1904,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_b5010540",
@@ -1718,7 +1918,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_4af3142a",
@@ -1730,7 +1932,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_8e713b90",
@@ -1742,7 +1946,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_60af0996",
@@ -1754,7 +1960,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_e38ea6f3",
@@ -1766,7 +1974,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_75157653",
@@ -1778,7 +1988,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_12198f1f",
@@ -1790,7 +2002,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_c4b30fbc",
@@ -1802,7 +2016,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_7959f540",
@@ -1814,7 +2030,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_d01941e8",
@@ -1826,7 +2044,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_f95592e2",
@@ -1838,7 +2058,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       }
     ],
     "generation_rules": {
@@ -1909,7 +2131,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_fe4d9673",
@@ -1926,7 +2150,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_d25ba31e",
@@ -1943,7 +2169,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_78ae7ef9",
@@ -1960,7 +2188,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_cbb11c1d",
@@ -1972,7 +2202,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_54e1b4f6",
@@ -1989,7 +2221,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_744c622d",
@@ -2001,7 +2235,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_cc74a625",
@@ -2013,7 +2249,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_78863063",
@@ -2025,7 +2263,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_50724854",
@@ -2037,7 +2277,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_d8d7d09a",
@@ -2049,7 +2291,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_f50c5115",
@@ -2061,7 +2305,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_70b21374",
@@ -2073,7 +2319,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_aab990e1",
@@ -2090,7 +2338,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_8fe8a3e4",
@@ -2107,7 +2357,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_8f4ae767",
@@ -2124,7 +2376,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_b20addaf",
@@ -2141,7 +2395,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       },
       {
         "id": "q_50a1c66b",
@@ -2153,7 +2409,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_9ae9abe2",
@@ -2165,7 +2423,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_657e8a91",
@@ -2177,7 +2437,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_1e25cf82",
@@ -2194,7 +2456,9 @@
           "D) All of the above"
         ],
         "correct_answer": "A",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
       }
     ],
     "generation_rules": {
@@ -2260,7 +2524,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_c85230da",
@@ -2272,7 +2538,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_e85a75e4",
@@ -2284,7 +2552,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_51b5c2ef",
@@ -2296,7 +2566,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Tree Traversals, Binary Tree ADT, Expression trees",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_fbca81bb",
@@ -2308,7 +2580,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_e1707317",
@@ -2320,7 +2594,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Abstract Data Types (ADTs), Array-based implementation, Linked list implementation",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_25d0bf10",
@@ -2332,7 +2608,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Linear Search, Binary Search. Sorting, Bubble sort",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_bbbf884f",
@@ -2344,7 +2622,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K2"
       },
       {
         "id": "q_5f50f1d1",
@@ -2356,7 +2636,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO5",
+        "blooms_level": "K4"
       },
       {
         "id": "q_1241b094",
@@ -2368,7 +2650,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Applications, Balancing Symbols, Evaluating arithmetic expressions- Infix to Postfix conversion",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       },
       {
         "id": "q_2a156269",
@@ -2380,7 +2664,9 @@
         "difficulty": "medium",
         "options": null,
         "correct_answer": "Students should explain: Graph Definition, Representation of Graphs, Types of Graph",
-        "answer_explanation": "This is a fallback question due to API error."
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
       }
     ],
     "generation_rules": {

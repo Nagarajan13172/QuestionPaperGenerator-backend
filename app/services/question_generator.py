@@ -183,7 +183,9 @@ class QuestionGenerator:
                     difficulty=difficulty,
                     options=question_data.get('options'),
                     correct_answer=question_data.get('correct_answer'),
-                    answer_explanation=question_data.get('explanation')
+                    answer_explanation=question_data.get('explanation'),
+                    course_outcome=question_data.get('course_outcome', 'CO1'),
+                    blooms_level=question_data.get('blooms_level', 'K1')
                 )
                 
                 logger.info(f"✓ Successfully generated {question_type.value} question: {question.question_text[:60]}...")
@@ -209,6 +211,20 @@ class QuestionGenerator:
         """Create a fallback question when API fails"""
         topics_str = ", ".join(unit.topics[:3]) if unit.topics else unit.title
         
+        # Determine CO and BL based on marks and type
+        if marks == 1:
+            co = "CO1"
+            bl = "K1"
+        elif marks <= 3:
+            co = "CO2"
+            bl = "K2"
+        elif marks <= 5:
+            co = "CO3"
+            bl = "K3"
+        else:
+            co = "CO4"
+            bl = "K4"
+        
         if question_type == QuestionType.MULTIPLE_CHOICE:
             return Question(
                 id=f"q_{uuid.uuid4().hex[:8]}",
@@ -225,7 +241,9 @@ class QuestionGenerator:
                     "D) All of the above"
                 ],
                 correct_answer="A",
-                answer_explanation="This is a fallback question due to API error."
+                answer_explanation="This is a fallback question due to API error.",
+                course_outcome=co,
+                blooms_level=bl
             )
         else:
             return Question(
@@ -237,7 +255,9 @@ class QuestionGenerator:
                 type=question_type,
                 difficulty=difficulty,
                 correct_answer=f"Students should explain: {topics_str}",
-                answer_explanation="This is a fallback question due to API error."
+                answer_explanation="This is a fallback question due to API error.",
+                course_outcome=co,
+                blooms_level=bl
             )
     
     def _create_prompt(
@@ -285,7 +305,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format (no extra text):
     "D) Fourth option"
   ],
   "correct_answer": "A",
-  "explanation": "Why A is correct (1-2 sentences)"
+  "explanation": "Why A is correct (1-2 sentences)",
+  "course_outcome": "CO1",
+  "blooms_level": "K1"
 }}"""
             else:
                 base_prompt += f"""
@@ -303,7 +325,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format (no extra text):
     "D) Fourth option"
   ],
   "correct_answer": "A",
-  "explanation": "Detailed explanation (2-3 sentences)"
+  "explanation": "Detailed explanation (2-3 sentences)",
+  "course_outcome": "CO2",
+  "blooms_level": "K2"
 }}"""
         
         elif question_type == QuestionType.TRUE_FALSE:
@@ -316,7 +340,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format (no extra text):
   "question": "Specific statement about the topic",
   "options": ["True", "False"],
   "correct_answer": "True",
-  "explanation": "Why this statement is true/false"
+  "explanation": "Why this statement is true/false",
+  "course_outcome": "CO1",
+  "blooms_level": "K1"
 }"""
         
         elif question_type == QuestionType.SHORT_ANSWER:
@@ -328,7 +354,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format (no extra text):
 {{
   "question": "Specific question about {unit.title} concepts?",
   "correct_answer": "Key points: 1) point one 2) point two 3) point three",
-  "explanation": "Marking scheme: 1 mark per key point"
+  "explanation": "Marking scheme: 1 mark per key point",
+  "course_outcome": "CO2",
+  "blooms_level": "K2"
 }}"""
         
         elif question_type == QuestionType.DESCRIPTIVE:
@@ -340,7 +368,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format (no extra text):
 {{
   "question": "Explain/Describe/Analyze [specific aspect of {unit.title}] in detail.",
   "correct_answer": "Expected answer structure with key points",
-  "explanation": "Marking scheme: marks for each major point"
+  "explanation": "Marking scheme: marks for each major point",
+  "course_outcome": "CO3",
+  "blooms_level": "K3"
 }}"""
         
         elif question_type == QuestionType.ESSAY:
@@ -352,7 +382,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format (no extra text):
 {{
   "question": "Comprehensive question about {unit.title} requiring essay-type answer.",
   "correct_answer": "Structure: Introduction, main points, examples, conclusion",
-  "explanation": "Marking scheme breakdown"
+  "explanation": "Marking scheme breakdown",
+  "course_outcome": "CO4",
+  "blooms_level": "K4"
 }}"""
         
         else:  # FILL_BLANK
@@ -361,7 +393,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format (no extra text):
 {
   "question": "Statement with _____ blank to fill",
   "correct_answer": "word or phrase for blank",
-  "explanation": "Why this is the answer"
+  "explanation": "Why this is the answer",
+  "course_outcome": "CO1",
+  "blooms_level": "K1"
 }"""
         
         return base_prompt

@@ -146,6 +146,8 @@ class Question(BaseModel):
     options: Optional[List[str]] = Field(None, description="Options for MCQ/True-False")
     correct_answer: Optional[str] = Field(None, description="Correct answer")
     answer_explanation: Optional[str] = Field(None, description="Explanation for the answer")
+    course_outcome: Optional[str] = Field(None, description="Course Outcome (CO) - e.g., CO1, CO2, CO3")
+    blooms_level: Optional[str] = Field(None, description="Bloom's Taxonomy Level - e.g., K1, K2, K3")
 
     class Config:
         json_schema_extra = {
@@ -159,7 +161,9 @@ class Question(BaseModel):
                 "difficulty": "easy",
                 "options": ["A) A constant value", "B) A storage location", "C) A function", "D) A loop"],
                 "correct_answer": "B",
-                "answer_explanation": "A variable is a storage location identified by a name."
+                "answer_explanation": "A variable is a storage location identified by a name.",
+                "course_outcome": "CO1",
+                "blooms_level": "K1"
             }
         }
 

@@ -220,11 +220,36 @@ class PDFGenerator:
             story.append(heading)
             story.append(Spacer(1, 0.1*inch))
             
+            # Add table header
+            header_data = [[
+                Paragraph('<b>Q. No.</b>', self.styles['Normal']),
+                Paragraph('<b>Questions</b>', self.styles['Normal']),
+                Paragraph('<b>CO</b>', self.styles['Normal']),
+                Paragraph('<b>BL</b>', self.styles['Normal'])
+            ]]
+            
+            col_widths = [0.5*inch, 5*inch, 0.6*inch, 0.6*inch]
+            header_table = Table(header_data, colWidths=col_widths)
+            header_table.setStyle(TableStyle([
+                ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#e0e0e0')),
+                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+                ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+                ('FONTNAME', (0, 0), (-1, -1), 'Helvetica-Bold'),
+                ('FONTSIZE', (0, 0), (-1, -1), 10),
+                ('LEFTPADDING', (0, 0), (-1, -1), 6),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+                ('TOPPADDING', (0, 0), (-1, -1), 8),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
+                ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#cccccc')),
+                ('BOX', (0, 0), (-1, -1), 1, colors.HexColor('#000000')),
+            ]))
+            
+            story.append(header_table)
+            
             # Render questions
             for question in questions:
                 story.extend(self._render_question(question, question_number, show_answers))
                 question_number += 1
-                story.append(Spacer(1, 0.15*inch))
         
         return story
     
@@ -243,24 +268,56 @@ class PDFGenerator:
         return f"{type_name} ({count} × {marks} marks)"
     
     def _render_question(self, question: Question, number: int, show_answers: bool) -> List:
-        """Render a single question"""
+        """Render a single question in table format with CO and BL columns"""
         story = []
         
-        # Question text with number
-        q_text = f"<b>Q{number}.</b> {self._escape_html(question.question_text)} "
-        q_text += f"<i>[{question.marks} mark{'s' if question.marks > 1 else ''}]</i>"
+        # Build question text with options
+        q_text = f"{self._escape_html(question.question_text)}"
         
-        # Add unit reference
-        q_text += f" <font color='#7f8c8d'>(Unit: {question.unit_name})</font>"
-        
-        question_para = Paragraph(q_text, self.styles['Question'])
-        story.append(question_para)
-        
-        # Options for MCQ/True-False
+        # Add options for MCQ/True-False
         if question.options:
+            q_text += "<br/>"
             for option in question.options:
-                option_para = Paragraph(self._escape_html(option), self.styles['Option'])
-                story.append(option_para)
+                q_text += f"<br/>{self._escape_html(option)}"
+        
+        # Create question paragraph
+        question_para = Paragraph(q_text, self.styles['Question'])
+        
+        # Get CO and BL values
+        co_value = question.course_outcome or 'CO1'
+        bl_value = question.blooms_level or 'K1'
+        
+        # Create table with Q.No, Question, CO, BL columns
+        table_data = [
+            [
+                Paragraph(f"<b>{number}.</b>", self.styles['Normal']),
+                question_para,
+                Paragraph(f"<b>{co_value}</b>", self.styles['Normal']),
+                Paragraph(f"<b>{bl_value}</b>", self.styles['Normal'])
+            ]
+        ]
+        
+        # Create table
+        col_widths = [0.5*inch, 5*inch, 0.6*inch, 0.6*inch]
+        question_table = Table(table_data, colWidths=col_widths)
+        question_table.setStyle(TableStyle([
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+            ('ALIGN', (0, 0), (0, -1), 'LEFT'),
+            ('ALIGN', (1, 0), (1, -1), 'LEFT'),
+            ('ALIGN', (2, 0), (2, -1), 'CENTER'),
+            ('ALIGN', (3, 0), (3, -1), 'CENTER'),
+            ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
+            ('FONTNAME', (2, 0), (-1, -1), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, -1), 10),
+            ('LEFTPADDING', (0, 0), (-1, -1), 6),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+            ('TOPPADDING', (0, 0), (-1, -1), 8),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
+            ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#cccccc')),
+            ('BOX', (0, 0), (-1, -1), 1, colors.HexColor('#000000')),
+        ]))
+        
+        story.append(question_table)
         
         # Answer (if enabled)
         if show_answers and question.correct_answer:
