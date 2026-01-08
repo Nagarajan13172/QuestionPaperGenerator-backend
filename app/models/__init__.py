@@ -15,6 +15,8 @@ from app.models.schemas import (
     GenerateQuestionPaperRequest,
     HealthResponse,
     ErrorResponse,
+    AnswerKey,
+    AnswerKeyItem,
 )
 
 __all__ = [
@@ -31,4 +33,6 @@ __all__ = [
     "GenerateQuestionPaperRequest",
     "HealthResponse",
     "ErrorResponse",
+    "AnswerKey",
+    "AnswerKeyItem",
 ]

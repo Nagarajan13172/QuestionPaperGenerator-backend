@@ -174,5 +174,24 @@
     ],
     "created_at": "2025-12-29 18:05:31.752199",
     "updated_at": "2025-12-29 18:05:31.752202"
+  },
+  "syl_795714ac": {
+    "id": "syl_795714ac",
+    "course_name": "Data Structures and Algorithms",
+    "content": "Unit 1: Introduction to Data Structures\n- Arrays and their operations\n- Linked Lists (Single, Double, Circular)\n- Stack and Queue operations\n- Time and Space Complexity\n\nUnit 2: Trees and Graphs\n- Binary Trees and Binary Search Trees\n- Tree Traversal Algorithms (Inorder, Preorder, Postorder)\n- AVL Trees and Balancing\n- Graph Representation and Traversal (BFS, DFS)\n\nUnit 3: Sorting and Searching\n- Bubble Sort, Selection Sort, Insertion Sort\n- Quick Sort and Merge Sort\n- Binary Search and Linear Search\n- Hashing and Hash Tables\n\nUnit 4: Advanced Data Structures\n- Heaps and Priority Queues\n- B-Trees and B+ Trees\n- Tries and Suffix Trees\n- Disjoint Set Data Structures",
+    "units": [
+      {
+        "id": "unit_1",
+        "title": "Section 1",
+        "topics": [
+          "Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures"
+        ],
+        "order": 1
+      }
+    ],
+    "created_at": "2026-01-08 14:11:23.250047",
+    "updated_at": "2026-01-08 14:11:23.250049"
   }
 }

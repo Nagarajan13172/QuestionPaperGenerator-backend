@@ -198,6 +198,39 @@ def test_list_all():
     print(f"Papers found: {len(response.json())}")
 
 
+def test_get_answer_key(paper_id):
+    """Test retrieving the answer key"""
+    print("\n" + "="*60)
+    print("TEST 6: Retrieve Answer Key")
+    print("="*60)
+    
+    if not paper_id:
+        print("Skipping: No paper ID available")
+        return
+    
+    response = requests.get(f"{BASE_URL}/api/question-paper/{paper_id}/answer-key")
+    
+    print(f"Status: {response.status_code}")
+    
+    if response.status_code == 200:
+        result = response.json()
+        print(f"✓ Retrieved Answer Key for paper: {result['paper_id']}")
+        print(f"  Total Marks: {result['total_marks']}")
+        print(f"  Answers Count: {len(result['answers'])}")
+        
+        print(f"\n--- Sample Answers ---")
+        for i, answer in enumerate(result['answers'][:3], 1):
+            print(f"\n{i}. Q: {answer['question_text'][:50]}...")
+            print(f"   A: {answer['correct_answer'][:50]}...")
+            if answer.get('explanation'):
+                print(f"   Explanation: {answer['explanation'][:50]}...")
+    else:
+        print(f"Error: {response.text}")
+
+
+
+
+
 def main():
     """Run all tests"""
     print("\n" + "="*60)
@@ -226,17 +259,23 @@ def main():
         
         # Test 5: List all
         test_list_all()
+
+        # Test 6: Get Answer Key
+        test_get_answer_key(paper_id)
         
         print("\n" + "="*60)
         print("✓ ALL TESTS COMPLETED")
         print("="*60)
-        
+
     except requests.ConnectionError:
         print("\n❌ Cannot connect to server at http://localhost:8000")
         print("Please start the server first:")
         print("  uvicorn app.main:app --reload")
     except Exception as e:
         print(f"\n❌ Test failed with error: {e}")
+
+        
+
 
 
 if __name__ == "__main__":

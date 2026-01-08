@@ -424,5 +424,351 @@
       "unit_3": 5,
       "unit_5": 3
     }
+  },
+  "qp_d0af1a33": {
+    "id": "qp_d0af1a33",
+    "syllabus_id": "syl_795714ac",
+    "course_name": "Data Structures and Algorithms",
+    "generated_at": "2026-01-08 14:11:33.263716",
+    "total_marks": 59,
+    "total_questions": 18,
+    "questions": [
+      {
+        "id": "q_5a7bd07a",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
+      },
+      {
+        "id": "q_95ad4b88",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
+      },
+      {
+        "id": "q_ce122c9a",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
+      },
+      {
+        "id": "q_41318677",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_face2b67",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_fe7c87e7",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 8,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO4",
+        "blooms_level": "K4"
+      },
+      {
+        "id": "q_93e1732a",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_f823485b",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
+      },
+      {
+        "id": "q_c5b423a2",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 5,
+        "type": "descriptive",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO3",
+        "blooms_level": "K3"
+      },
+      {
+        "id": "q_6de06475",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_060dfcc5",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_c8ff47c0",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 8,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO4",
+        "blooms_level": "K4"
+      },
+      {
+        "id": "q_f6ceda9b",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_82be5c6e",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_cb070a14",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_cec30133",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Explain the key concepts covered in Section 1. Topics include: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "marks": 8,
+        "type": "essay",
+        "difficulty": "medium",
+        "options": null,
+        "correct_answer": "Students should explain: Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS), Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables, Unit 4: Advanced Data Structures - Heaps and Priority Queues - B-Trees and B+ Trees - Tries and Suffix Trees - Disjoint Set Data Structures",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO4",
+        "blooms_level": "K4"
+      },
+      {
+        "id": "q_215ab0df",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      },
+      {
+        "id": "q_4cf3c1f9",
+        "unit_id": "unit_1",
+        "unit_name": "Section 1",
+        "question_text": "Which of the following is related to Section 1?",
+        "marks": 1,
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "options": [
+          "A) Unit 2: Trees and Graphs - Binary Trees and Binary Search Trees - Tree Traversal Algorithms (Inorder, Preorder, Postorder) - AVL Trees and Balancing - Graph Representation and Traversal (BFS, DFS)",
+          "B) Unit 3: Sorting and Searching - Bubble Sort, Selection Sort, Insertion Sort - Quick Sort and Merge Sort - Binary Search and Linear Search - Hashing and Hash Tables",
+          "C) None of the above",
+          "D) All of the above"
+        ],
+        "correct_answer": "A",
+        "answer_explanation": "This is a fallback question due to API error.",
+        "course_outcome": "CO1",
+        "blooms_level": "K1"
+      }
+    ],
+    "generation_rules": {
+      "question_types": [
+        {
+          "marks": 1,
+          "count": 10,
+          "type": "multiple_choice",
+          "difficulty": null
+        },
+        {
+          "marks": 5,
+          "count": 5,
+          "type": "descriptive",
+          "difficulty": null
+        },
+        {
+          "marks": 8,
+          "count": 3,
+          "type": "essay",
+          "difficulty": null
+        }
+      ],
+      "difficulty_distribution": {
+        "easy": 40,
+        "medium": 40,
+        "hard": 20
+      },
+      "unit_selection": "all",
+      "include_answer_key": true,
+      "randomize_order": true,
+      "randomize_options": true
+    },
+    "units_coverage": {
+      "unit_1": 18
+    }
   }
 }

@@ -226,3 +226,55 @@ class ErrorResponse(BaseModel):
     error: str = Field(..., description="Error message")
     detail: Optional[str] = Field(None, description="Detailed error information")
     timestamp: datetime = Field(default_factory=datetime.utcnow)
+
+
+class AnswerKeyItem(BaseModel):
+    """Represents a single answer in the answer key"""
+    question_id: str = Field(..., description="ID of the question")
+    question_number: int = Field(..., description="Question number in the paper")
+    question_text: Optional[str] = Field(None, description="Question text context")
+    type: QuestionType = Field(..., description="Type of question")
+    marks: int = Field(..., description="Marks allocated")
+    correct_answer: str = Field(..., description="The correct answer")
+    explanation: Optional[str] = Field(None, description="Explanation for the answer")
+
+    class Config:
+        json_schema_extra = {
+            "example": {
+                "question_id": "q1",
+                "question_number": 1,
+                "question_text": "What is a variable?",
+                "type": "multiple_choice",
+                "marks": 1,
+                "correct_answer": "B",
+                "explanation": "A variable is a storage location identified by a name."
+            }
+        }
+
+
+class AnswerKey(BaseModel):
+    """Represents the complete answer key for a question paper"""
+    paper_id: str = Field(..., description="ID of the question paper")
+    course_name: str = Field(..., description="Course name")
+    total_marks: int = Field(..., description="Total marks")
+    generated_at: datetime = Field(..., description="When the paper was generated")
+    answers: List[AnswerKeyItem] = Field(..., description="List of answers")
+
+    class Config:
+        json_schema_extra = {
+            "example": {
+                "paper_id": "qp_12345",
+                "course_name": "Data Structures",
+                "total_marks": 100,
+                "generated_at": "2023-01-01T12:00:00Z",
+                "answers": [
+                    {
+                        "question_id": "q1",
+                        "question_number": 1,
+                        "type": "multiple_choice",
+                        "marks": 1,
+                        "correct_answer": "B"
+                    }
+                ]
+            }
+        }

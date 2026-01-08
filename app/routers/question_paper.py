@@ -11,7 +11,9 @@ from app.models import (
     QuestionPaper,
     GenerateQuestionPaperRequest,
     ErrorResponse,
-    Syllabus
+    Syllabus,
+    AnswerKey,
+    AnswerKeyItem
 )
 from app.services.question_generator import QuestionGenerator
 from app.services.pdf_generator import PDFGenerator
@@ -196,4 +198,55 @@ async def download_question_paper_pdf(
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Failed to generate PDF: {str(e)}"
+        )
+
+
+@router.get("/{paper_id}/answer-key", response_model=AnswerKey)
+async def get_answer_key(paper_id: str):
+    """
+    Get the answer key for a question paper
+    """
+    try:
+        # Get question paper
+        paper_dict = storage.get_item(QUESTION_PAPERS_STORE, paper_id)
+        if not paper_dict:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Question paper with ID {paper_id} not found"
+            )
+        
+        question_paper = QuestionPaper(**paper_dict)
+        
+        # Transform questions into answer key items
+        answers = []
+        for i, question in enumerate(question_paper.questions, 1):
+            answers.append(AnswerKeyItem(
+                question_id=question.id,
+                question_number=i,
+                question_text=question.question_text,
+                type=question.type,
+                marks=question.marks,
+                correct_answer=question.correct_answer or "Not available",
+                explanation=question.answer_explanation
+            ))
+            
+        # Create answer key
+        answer_key = AnswerKey(
+            paper_id=question_paper.id,
+            course_name=question_paper.course_name,
+            total_marks=question_paper.total_marks,
+            generated_at=question_paper.generated_at,
+            answers=answers
+        )
+        
+        logger.info(f"Answer key retrieved for paper: {paper_id}")
+        return answer_key
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error retrieving answer key for {paper_id}: {e}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to retrieve answer key: {str(e)}"
         )
